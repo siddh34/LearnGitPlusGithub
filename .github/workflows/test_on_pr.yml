@@ -23,3 +23,9 @@ jobs:
 
       - name: Run Python tests
         run: python -m unittest discover -s . -p "test_*.py"
+
+      - name: Add second task if tests are green
+        if: success()
+        run: |
+          mkdir task_2
+          echo "# Task2 Revert git commits:- Switch Branch to fix/doom for task 2" >> task_2/README.md
