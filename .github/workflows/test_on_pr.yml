@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
+      # - name: Install Python dependencies
+      #   run: pip install -r requirements.txt
 
       - name: Run Python tests
         run: python -m unittest discover -s . -p "test_*.py"
