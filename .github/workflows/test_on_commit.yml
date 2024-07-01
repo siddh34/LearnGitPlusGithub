@@ -3,7 +3,7 @@ name: On Commit Testing
 on:
   push:
     branches:
-      - fix/commits
+      - fix/doom
 
 jobs:
   test:
