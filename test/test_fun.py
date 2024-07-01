@@ -2,6 +2,7 @@ import unittest
 import sys
 sys.path.append('..')
 from fun import add 
+from fun import sub
 
 class TestAddFunction(unittest.TestCase):
     def test_add_positive_numbers(self):
@@ -15,6 +16,10 @@ class TestAddFunction(unittest.TestCase):
     def test_add_positive_and_negative_number(self):
         print("Testing addition of integers")
         self.assertEqual(add(-1, 2), 1)
+
+    def test_sub(self):
+        print("Testing subtraction")
+        self.assertEqual(sub(2, 1), 1)
 
 if __name__ == '__main__':
     unittest.main()
