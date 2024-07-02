@@ -80,6 +80,21 @@ git push
 ```
 
 * Go to github and check the PR section
-* Click on `new pull request`
-* Select your branch against main
-* Click on create
+
+  ![1719924005837](image/README/1719924005837.png)
+* Click on `compare & pull`
+* Or you can click on `New pull request`. After that
+
+  1. In the **base:** dropdown, make sure **main** is selected.
+  2. Select the **compare:** dropdown, and click `my-first-branch`.
+  3. Select the **compare:** dropdown, and click `my-first-branch`.
+
+     ![1719924192022](image/README/1719924192022.png)
+  4. Add title as `my first pr`
+  5. Click  **Create pull request** . You will automatically be navigated to your new pull request.
+  6. Wait about 20 seconds then refresh this page to see github action magic
+  7. Then Merge the PR
+
+    ![1719934132100](image/README/1719934132100.png)
+
+   ![1719934148503](image/README/1719934148503.png)
