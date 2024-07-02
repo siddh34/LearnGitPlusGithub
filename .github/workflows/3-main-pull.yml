@@ -1,4 +1,4 @@
-name: Step 2, Revert
+name: Step 3, Take pull
 
 # This step listens for the learner to commit a file to branch `my-first-branch`.
 # This workflow updates from step 2 to step 3.
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - fix/doom
+      - take/pull
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -74,6 +74,6 @@ jobs:
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 2
-          to_step: 3
-          branch_name: fix/doom
+          from_step: 3
+          to_step: 4
+          branch_name: take/pull
