@@ -9,4 +9,4 @@
 
 Anything that is done on github manually, it can be done using gh. It is a cli written in go lang
 
-## That's all
+## That's all folks

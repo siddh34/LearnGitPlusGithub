@@ -60,7 +60,7 @@ But we will show you a fun way to login to github without this hasel. That will 
 ## Branching out in this repo after clone
 
 ```bash
-git checkout -b my_branch
+git checkout -b my-first-branch
 
 # it is important to take pull from main whenever possible
 
