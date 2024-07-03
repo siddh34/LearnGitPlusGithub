@@ -5,8 +5,8 @@
 * Login to gh
 * Explore gh
 
-![1719991931672](image/4-gh/1719991931672.png)
+![134234242342](./images/134234242342.png)
 
 Anything that is done on github manually, it can be done using gh. It is a cli written in go lang
 
-## That's all folks
+## That's all
