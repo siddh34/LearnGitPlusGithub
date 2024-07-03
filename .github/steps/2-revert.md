@@ -14,10 +14,10 @@ Steps
 ![1719990613294](./images/1719990613294.png)
 
 * Revert to commit that is saying corrected code using `git reset --hard commit id` or `git revert commit-id`
-  * Commit id is infront of commit as you can see in first image
-* Then force commit to the branch `git push -f`
+  * Commit id is in front of commit as you can see in first image
 * Enter `git pull --rebase=false`
 * Take pull
+* Then force commit to the branch `git push -f`
 * If conflict is there then use `git status` & `git add file.ext`
 * Then commit
 * Check the main branch readme should be updated
