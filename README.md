@@ -47,10 +47,20 @@ git config --global commit.gpgsign true
 
 But we will show you a fun way to login to github without this hasel. That will be at the end
 
+## How to fork?
+
+1. Click on fork button
+
+![1719992765060](images/1719992765060.png)
+
+1. Make sure to untick the copy main branch only
+
+![1719992740543](images/1719992740543.png)
+
 ## Branching out in this repo after clone
 
 ```bash
-git checkout -b my_branch
+git checkout -b my-first-branch
 
 # it is important to take pull from main whenever possible
 
@@ -81,7 +91,7 @@ git push
 
 * Go to github and check the PR section
 
-  ![1719924005837](image/README/1719924005837.png)
+  ![1719924005837](images/1719924005837.png)
 * Click on `compare & pull`
 * Or you can click on `New pull request`. After that
 
@@ -89,14 +99,15 @@ git push
   2. Select the **compare:** dropdown, and click `my-first-branch`.
   3. Select the **compare:** dropdown, and click `my-first-branch`.
 
-     ![1719924192022](image/README/1719924192022.png)
+     ![1719924192022](images/1719924192022.png)
   4. Add title as `my first pr`
-  5. Click  **Create pull request** . You will automatically be navigated to your new pull request.
-  6. Wait about 20 seconds then refresh this page to see github action magic
-  7. Then Merge the PR
+  5. Make Sure to enable actions in forked repo
+  6. Click  **Create pull request** . You will automatically be navigated to your new pull request.
+  7. Wait about 20 seconds then refresh this page to see github action magic
+  8. Then Merge the PR
 
-  ![1719934132100](image/README/1719934132100.png)
+  ![1719934132100](images/1719934132100.png)
 
-  ![1719934148503](image/README/1719934148503.png)
+  ![1719934148503](images/1719934148503.png)
 
-  8. Once PR is merged readme will change
+  9. Once PR is merged readme will change

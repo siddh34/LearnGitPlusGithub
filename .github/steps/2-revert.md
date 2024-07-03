@@ -11,7 +11,7 @@ Steps
 
 * See commit id using `git log`
 
-![1719990613294](image/2-revert/1719990613294.png)
+![1719990613294](/images/1719990613294.png)
 
 * Revert to last second commit using `git revert --hard commit id`
   * Commit id is infront of commit as you can see in first image
