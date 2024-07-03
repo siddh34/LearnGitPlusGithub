@@ -95,6 +95,8 @@ git push
   6. Wait about 20 seconds then refresh this page to see github action magic
   7. Then Merge the PR
 
-    ![1719934132100](image/README/1719934132100.png)
+  ![1719934132100](image/README/1719934132100.png)
 
-   ![1719934148503](image/README/1719934148503.png)
+  ![1719934148503](image/README/1719934148503.png)
+
+  8. Once PR is merged readme will change
