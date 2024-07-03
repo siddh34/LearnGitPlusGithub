@@ -89,7 +89,7 @@ git commit -m "corrected code"
 git push
 ```
 
-* Go to github and check the PR section
+* Make Sure to enable actions in forked repo & go to github and check the PR section
 
   ![1719924005837](images/1719924005837.png)
 * Click on `compare & pull`
@@ -101,13 +101,12 @@ git push
 
      ![1719924192022](images/1719924192022.png)
   4. Add title as `my first pr`
-  5. Make Sure to enable actions in forked repo
-  6. Click  **Create pull request** . You will automatically be navigated to your new pull request.
-  7. Wait about 20 seconds then refresh this page to see github action magic
-  8. Then Merge the PR
+  5. Click  **Create pull request** . You will automatically be navigated to your new pull request.
+  6. Wait about 20 seconds then refresh this page to see github action magic
+  7. Then Merge the PR
 
   ![1719934132100](images/1719934132100.png)
 
   ![1719934148503](images/1719934148503.png)
 
-  9. Once PR is merged readme will change
+  8. Once PR is merged readme will change
