@@ -47,6 +47,16 @@ git config --global commit.gpgsign true
 
 But we will show you a fun way to login to github without this hasel. That will be at the end
 
+## How to fork?
+
+1. Click on fork button
+
+![1719992765060](image/README/1719992765060.png)
+
+1. Make sure to untick the copy main branch only
+
+![1719992740543](image/README/1719992740543.png)
+
 ## Branching out in this repo after clone
 
 ```bash
