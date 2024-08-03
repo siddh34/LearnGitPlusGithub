@@ -1,13 +1,16 @@
 
 
-# Task 3: Take pull from main
+# Task 4 install gh
 
-Go the branch `take/pull`
+* Install gh from [link](https://github.com/cli/cli/releases/tag/v2.52.0)
+* Use command `gh auth login`
+* Login to gh
+* Explore gh
 
-Take pull from main & solve the merge conflict in vs code or simply try adding the file using `git add file_name`
+![134234242342](./images/134234242342.png)
 
-use `git status` to see which file has conflict
+Anything that is done on github manually, it can be done using gh. It is a cli written in go lang
 
-As this is last task so, you will learn something interesting once it is done!
+## That's all folks
 
 
